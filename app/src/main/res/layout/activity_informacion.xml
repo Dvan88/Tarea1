@@ -25,4 +25,9 @@
         android:popupBackground="@color/purple2"
         android:layout_marginBottom="30dp"/>
 
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>
