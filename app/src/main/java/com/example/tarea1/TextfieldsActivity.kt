@@ -20,17 +20,9 @@ class TextfieldsActivity : AppCompatActivity() {
         val spinner = findViewById<Spinner>(R.id.spinnerNavegacion)
         val tvTitulo = findViewById<TextView>(R.id.tvTitulo)
 
-        tvTitulo.text = "MAIN"
+        tvTitulo.text = "TextFields"
 
-        val opciones = arrayOf(
-            "Selecciona una actividad",
-            "Main",
-            "Textfields",
-            "Botones",
-            "Seleccion",
-            "Listas",
-            "Informacion"
-        )
+        val opciones = arrayOf("Selecciona una actividad", "Main", "Textfields", "Botones", "Seleccion", "Listas", "Informacion")
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, opciones)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

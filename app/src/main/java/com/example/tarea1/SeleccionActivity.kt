@@ -15,7 +15,7 @@ class SeleccionActivity: AppCompatActivity() {
         val spinner = findViewById<Spinner>(R.id.spinnerNavegacion)
         val tvTitulo = findViewById<TextView>(R.id.tvTitulo)
 
-        tvTitulo.text = "MAIN"
+        tvTitulo.text = "Elementos de selección"
 
         val opciones = arrayOf("Selecciona una actividad", "Main", "Textfields", "Botones", "Seleccion", "Listas", "Informacion")
 

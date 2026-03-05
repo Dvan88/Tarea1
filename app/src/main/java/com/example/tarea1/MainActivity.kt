@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment, MainFragment())
+                .commit()
+        }
 
         val spinner = findViewById<Spinner>(R.id.spinnerNavegacion)
         val tvTitulo = findViewById<TextView>(R.id.tvTitulo)
