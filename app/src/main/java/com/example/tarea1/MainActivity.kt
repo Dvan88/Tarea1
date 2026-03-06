@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
         val spinner = findViewById<Spinner>(R.id.spinnerNavegacion)
         val tvTitulo = findViewById<TextView>(R.id.tvTitulo)
 
-        tvTitulo.text = "MAIN"
+        tvTitulo.text = "Menú principal"
 
-        val opciones = arrayOf("Selecciona una actividad", "Main", "Textfields", "Botones", "Elementos de seleccion", "Listas", "Elementos de Informacion")
+        val opciones = arrayOf("Selecciona una actividad", "Menú principal", "Textfields", "Botones", "Elementos de seleccion", "Listas", "Elementos de Informacion")
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, opciones)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
