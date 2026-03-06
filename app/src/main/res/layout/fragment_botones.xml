@@ -60,6 +60,24 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/arbol" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón de acción flotante"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:contentDescription="FAB"
+            app:srcCompat="@android:drawable/ic_menu_rotate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
 
         <TextView
@@ -71,7 +89,6 @@
             android:lineSpacingExtra="4dp"
             android:padding="16dp"
             android:backgroundTint="@color/purple2"/>
-
 
         <View
             android:layout_width="match_parent"
