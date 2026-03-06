@@ -22,7 +22,7 @@ class BotonesActivity : AppCompatActivity() {
 
         tvTitulo.text = "Botones"
 
-        val opciones = arrayOf("Selecciona una actividad", "Main", "Textfields", "Botones", "Seleccion", "Listas", "Informacion")
+        val opciones = arrayOf("Selecciona una actividad", "Main", "Textfields", "Botones", "Elementos de seleccion", "Listas", "Elementos de Informacion")
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, opciones)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

@@ -44,7 +44,6 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_gravity="center"
-
             android:src="@android:drawable/ic_dialog_alert"
             android:layout_marginBottom="20dp"/>
 
@@ -62,7 +61,17 @@
             android:text="Cargar energía"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los elementos de información se pueden encontrar en mensajes, descripciones de una publicación, una foto en WhatsApp, el logo de una aplicación, cuando actualiza una aplicación o cuando se reproduce una canción."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:backgroundTint="@color/purple2"/>
 
         <View
             android:layout_width="match_parent"

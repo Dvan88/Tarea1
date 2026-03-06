@@ -48,7 +48,6 @@
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,10 +61,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algunos lugares donde podemos encontrar estos elementos son el las listas de contacto del celular, en configuraciones de una app, al guardar videos o publicaciones de lugares como YouTube o Facebook, entre muchos otros."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:backgroundTint="@color/purple2"/>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="50dp" />
+            android:layout_height="10dp" />
 
     </LinearLayout>
 
